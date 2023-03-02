@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Leave</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+     <style>
+          
+          @media print {
+               .noPrint{
+                    display:none;
+               }
+          } 
+            
+     </style>
+</head>
+<body>
+     <div class="container-fluid noPrint">
+          <div class="row">
+               <div class="col" align="center" style="background-color: white;">
+                    <h1>Letter Generator</h1><sub><h6>Easy ur work</h6></sub>
+               </div>
+          </div>
+     </div>
+    <div class="container justify-content-center align-items-center">
+          <div class="row">
+               <div class="col">
+                    <div id="section-to-print">
+                         <div id="datelocation" style="float: right;">
+                              03-12-2022
+                              <br>
+                              Coimbatore
+                         </div>
+                         <br>
+                         <div id="from">
+                              From:
+                              <br>
+                              Name,
+                              <br>
+                              Department,
+                              <br>
+                              KCE
+                         </div>
+                         <br>
+                         <div id="to">
+                              To:
+                              <br>
+                              HOD
+                              <br>
+                              Department
+                              <br>
+                              KCe
+                         </div>
+                         <br>
+                         <div id="through">
+                              Through:
+                              <br>
+                              Tutor
+                         </div>
+                         <br>
+                         <div id="content">
+                              Sub:Requisition for Leave
+                              <br>
+                              &nbsp;&nbsp;&nbsp;As i was suffering from leave i was unable to attend vlass, hence i request u to leave
+                              <br>
+                              <center><span align="center">Thanking you</span></center>
+                         </div>
+                         <br>
+                         <div id="obe" style="float: right;">
+                              Yours obediently
+                              <br>
+                              SARAN
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <center>
+               <input type="button" class="btn btn-primary noPrint" name="Print" value="Print" onclick="window.print()">
+          </center>
+     </div>
+     
+</body>
+</html>
